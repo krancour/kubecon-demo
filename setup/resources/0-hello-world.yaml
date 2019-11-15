@@ -1,0 +1,42 @@
+apiVersion: v1
+kind: Secret
+type: brigade.sh/project
+metadata:
+  name: brigade-afa27b44d43b02a9fea41d13cedc2e4016cfcf87c5dbf990e59366
+  namespace: brigade
+  labels:
+    app: brigade
+    component: project
+    heritage: brigade
+  annotations:
+    projectName: hello-world
+data:
+  allowHostMounts: ZmFsc2U=
+  allowPrivilegedJobs: ZmFsc2U=
+  brigadejsPath: ""
+  buildStorageSize: ""
+  cloneURL: aHR0cHM6Ly9naXRodWIuY29tL2JyaWdhZGVjb3JlL2VtcHR5LXRlc3RiZWQuZ2l0
+  defaultScript: Y29uc3QgeyBldmVudHMsIEpvYiB9ID0gcmVxdWlyZSgnYnJpZ2FkaWVyJyk7CgpldmVudHMub24oJ2V4ZWMnLCAoKSA9PiB7CiAgdmFyIGpvYiA9IG5ldyBKb2IoImhlbGxvLXdvcmxkIiwgJ2FscGluZTozLjgnKTsKICBqb2IudGFza3MgPSBbCiAgICAiZWNobyAnSGVsbG8sIFdvcmxkISciCiAgXTsKICBqb2IucnVuKCk7Cn0pOwo=
+  defaultScriptName: ""
+  genericGatewaySecret: cWQ5S3A=
+  github.baseURL: ""
+  github.token: ""
+  github.uploadURL: ""
+  imagePullSecrets: ""
+  initGitSubmodules: ZmFsc2U=
+  kubernetes.allowSecretKeyRef: ZmFsc2U=
+  kubernetes.buildStorageClass: ""
+  kubernetes.cacheStorageClass: ""
+  namespace: YnJpZ2FkZQ==
+  repository: Z2l0aHViLmNvbS9icmlnYWRlY29yZS9lbXB0eS10ZXN0YmVk
+  secrets: e30=
+  serviceAccount: ""
+  sharedSecret: ""
+  sshCert: ""
+  sshKey: ""
+  vcsSidecar: ""
+  worker.name: ""
+  worker.pullPolicy: SWZOb3RQcmVzZW50
+  worker.registry: ""
+  worker.tag: ""
+  workerCommand: ""

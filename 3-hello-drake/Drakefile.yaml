@@ -1,0 +1,33 @@
+specUri: github.com/lovethedrake/drakespec
+specVersion: v0.4.0
+
+jobs:
+
+  foo:
+    primaryContainer:
+      name: echo
+      image: alpine:3.8
+      command: ["echo"]
+      args: ["foo"]
+
+  bar:
+    primaryContainer:
+      name: echo
+      image: alpine:3.8
+      command: ["echo"]
+      args: ["bar"]
+
+pipelines:
+
+  foobar:
+    triggers:
+    - specUri: github.com/lovethedrake/drakespec-brig
+      specVersion: v1.0.0
+      config:
+        eventTypes:
+        - foobar
+    jobs:
+    - name: foo
+    - name: bar
+      dependencies:
+      - foo

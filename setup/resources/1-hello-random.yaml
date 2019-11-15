@@ -1,0 +1,42 @@
+apiVersion: v1
+kind: Secret
+type: brigade.sh/project
+metadata:
+  name: brigade-eb9b130cc1de7214f258b7c73f77397d5e8006238d7aeeddd2b564
+  namespace: brigade
+  labels:
+    app: brigade
+    component: project
+    heritage: brigade
+  annotations:
+    projectName: hello-random
+data:
+  allowHostMounts: ZmFsc2U=
+  allowPrivilegedJobs: ZmFsc2U=
+  brigadejsPath: ""
+  buildStorageSize: ""
+  cloneURL: aHR0cHM6Ly9naXRodWIuY29tL2JyaWdhZGVjb3JlL2VtcHR5LXRlc3RiZWQuZ2l0
+  defaultScript: Y29uc3QgeyBldmVudHMsIEpvYiB9ID0gcmVxdWlyZSgnYnJpZ2FkaWVyJyk7CmNvbnN0IHsgdW5pcXVlTmFtZXNHZW5lcmF0b3IsIGFkamVjdGl2ZXMsIGFuaW1hbHMgfSA9IHJlcXVpcmUoJ3VuaXF1ZS1uYW1lcy1nZW5lcmF0b3InKTsKCmV2ZW50cy5vbignZXhlYycsICgpID0+IHsKICByYW5kb21Kb2JOYW1lID0gdW5pcXVlTmFtZXNHZW5lcmF0b3IoewogICAgZGljdGlvbmFyaWVzOiBbYWRqZWN0aXZlcywgYW5pbWFsc10sCiAgICBsZW5ndGg6IDIsCiAgICBzZXBhcmF0b3I6ICctJwogIH0pOwogIGNvbnNvbGUubG9nKCd1c2luZyBqb2IgbmFtZTogJyArIHJhbmRvbUpvYk5hbWUpOwogIHZhciBqb2IgPSBuZXcgSm9iKHJhbmRvbUpvYk5hbWUsICdhbHBpbmU6My44Jyk7CiAgam9iLnRhc2tzID0gWwogICAgJ2VjaG8gIkhlbGxvIGZyb20gJyArIHJhbmRvbUpvYk5hbWUgKyAnLiInCiAgXTsKICBqb2IucnVuKCk7Cn0pOwo=
+  defaultScriptName: ""
+  genericGatewaySecret: bTExV1o=
+  github.baseURL: ""
+  github.token: ""
+  github.uploadURL: ""
+  imagePullSecrets: ""
+  initGitSubmodules: ZmFsc2U=
+  kubernetes.allowSecretKeyRef: ZmFsc2U=
+  kubernetes.buildStorageClass: ""
+  kubernetes.cacheStorageClass: ""
+  namespace: YnJpZ2FkZQ==
+  repository: Z2l0aHViLmNvbS9icmlnYWRlY29yZS9lbXB0eS10ZXN0YmVk
+  secrets: e30=
+  serviceAccount: ""
+  sharedSecret: ""
+  sshCert: ""
+  sshKey: ""
+  vcsSidecar: ""
+  worker.name: ""
+  worker.pullPolicy: SWZOb3RQcmVzZW50
+  worker.registry: ""
+  worker.tag: ""
+  workerCommand: ""

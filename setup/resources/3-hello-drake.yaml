@@ -1,0 +1,42 @@
+apiVersion: v1
+kind: Secret
+type: brigade.sh/project
+metadata:
+  name: brigade-b45e0b5967c746c3daa0859a4c172cecd0b97d3983153da5c40aef
+  namespace: brigade
+  labels:
+    app: brigade
+    component: project
+    heritage: brigade
+  annotations:
+    projectName: hello-drake
+data:
+  allowHostMounts: ZmFsc2U=
+  allowPrivilegedJobs: ZmFsc2U=
+  brigadejsPath: ""
+  buildStorageSize: ""
+  cloneURL: aHR0cHM6Ly9naXRodWIuY29tL2JyaWdhZGVjb3JlL2VtcHR5LXRlc3RiZWQuZ2l0
+  defaultScript: c3BlY1VyaTogZ2l0aHViLmNvbS9sb3ZldGhlZHJha2UvZHJha2VzcGVjCnNwZWNWZXJzaW9uOiB2MC40LjAKCmpvYnM6CgogIGZvbzoKICAgIHByaW1hcnlDb250YWluZXI6CiAgICAgIG5hbWU6IGVjaG8KICAgICAgaW1hZ2U6IGFscGluZTozLjgKICAgICAgY29tbWFuZDogWyJlY2hvIl0KICAgICAgYXJnczogWyJmb28iXQoKICBiYXI6CiAgICBwcmltYXJ5Q29udGFpbmVyOgogICAgICBuYW1lOiBlY2hvCiAgICAgIGltYWdlOiBhbHBpbmU6My44CiAgICAgIGNvbW1hbmQ6IFsiZWNobyJdCiAgICAgIGFyZ3M6IFsiYmFyIl0KCnBpcGVsaW5lczoKCiAgZm9vYmFyOgogICAgdHJpZ2dlcnM6CiAgICAtIHNwZWNVcmk6IGdpdGh1Yi5jb20vbG92ZXRoZWRyYWtlL2RyYWtlc3BlYy1icmlnCiAgICAgIHNwZWNWZXJzaW9uOiB2MS4wLjAKICAgICAgY29uZmlnOgogICAgICAgIGV2ZW50VHlwZXM6CiAgICAgICAgLSBmb29iYXIKICAgIGpvYnM6CiAgICAtIG5hbWU6IGZvbwogICAgLSBuYW1lOiBiYXIKICAgICAgZGVwZW5kZW5jaWVzOgogICAgICAtIGZvbwo=
+  defaultScriptName: ""
+  genericGatewaySecret: czdtSms=
+  github.baseURL: ""
+  github.token: ""
+  github.uploadURL: ""
+  imagePullSecrets: ""
+  initGitSubmodules: ZmFsc2U=
+  kubernetes.allowSecretKeyRef: ZmFsc2U=
+  kubernetes.buildStorageClass: c3RhbmRhcmQ=
+  kubernetes.cacheStorageClass: c3RhbmRhcmQ=
+  namespace: YnJpZ2FkZQ==
+  repository: Z2l0aHViLmNvbS9icmlnYWRlY29yZS9lbXB0eS10ZXN0YmVk
+  secrets: e30=
+  serviceAccount: ""
+  sharedSecret: ""
+  sshCert: ""
+  sshKey: ""
+  vcsSidecar: ""
+  worker.name: YnJpZ2RyYWtlLXdvcmtlcg==
+  worker.pullPolicy: SWZOb3RQcmVzZW50
+  worker.registry: bG92ZXRoZWRyYWtl
+  worker.tag: djAuMjEuMA==
+  workerCommand: L2JyaWdkcmFrZS9iaW4vYnJpZ2RyYWtlLXdvcmtlcg==
