@@ -13,6 +13,10 @@ minikube start \
 kubectl create namespace brigade
 helm install brigade brigade/brigade --namespace brigade --values ~/k8s-snippets/kubecon/brigade-values.yaml
 
+# Install Matt's demo
+kubectl apply -f https://raw.githubusercontent.com/technosophos/tinygw/master/project.yaml -n brigade
+helm install --namespace brigade tinygw https://raw.githubusercontent.com/technosophos/tinygw/master/charts/tinygw-0.1.0.tgz
+
 # Pre-pull images in case we don't have a network connection during the presentation
 eval $(minikube docker-env)
 docker pull krancour/brigade-worker:kubecon
